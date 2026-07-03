@@ -1,0 +1,32 @@
+{
+  "name": "vijaykodam",
+  "owner": {
+    "name": "Vijay Kodam",
+    "url": "https://vijay.eu"
+  },
+  "metadata": {
+    "description": "Vijay Kodam's Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "url-logger",
+      "source": {
+        "source": "github",
+        "repo": "vijaykodam/url-logger"
+      },
+      "description": "Logs all WebSearch and WebFetch URLs to .claude/web-access.log with session IDs",
+      "category": "development",
+      "keywords": ["logging", "web-access", "urls", "audit"]
+    },
+    {
+      "name": "model-audit",
+      "source": {
+        "source": "github",
+        "repo": "vijaykodam/model-audit"
+      },
+      "description": "Audit which Claude model handled each Claude Code session",
+      "category": "development",
+      "keywords": ["models", "audit", "sessions", "transcripts"]
+    }
+  ]
+}
